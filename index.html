@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Scripts -->
+    <script src="./script.js"></script>
+    <script src="./scripts/template.js"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/standart.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/pokeBox.css">
+    <link rel="stylesheet" href="./styles/loadingspinner.css">
+    <link rel="stylesheet" href="./styles/dialogOverlay.css">
+    <link rel="stylesheet" href="./styles/searchOverlay.css">
+    <link rel="stylesheet" href="./styles/mediaQuerys/mediaQuery.css">
+
+
+
+</head>
+<body id="body" onload="init()">  
+
+<header><img src="./assets/img/pokedextitle.png" alt="./assets/img/pokedextitle.png"></header>
+<nav class="navBar"><input type="text" id="searchField" placeholder="Suche Pokémon's" oninput="searchPokemon()" /></nav>
+<div id="searchContent" class="d_none"></div>
+<section id="mainContent"></section>
+<div class="btnLoadMoreDiv"><button id="btnLoadMore" onclick="loadMorePokemons(20)">Load More</button></div>
+
+</body>
+</html>

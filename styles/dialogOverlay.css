@@ -1,0 +1,85 @@
+.dialogBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: rgba(5, 23, 30, 0.918);
+}
+
+.dialogDiv{
+  text-align: center;
+  border-radius: 40px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokeImgBox {
+  display: flex;
+  align-items: center;
+}
+
+#aboutPokemon p {
+  font-size: medium;
+ 
+  width: 72px;
+  border-radius: 24px;
+  filter: drop-shadow(1.5px 2.5px 2.5px black);
+}
+
+.swipe {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.stat-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  gap: 24px;
+  font-weight: bold;
+}
+  
+.stat-name {
+  width: 64px;
+}
+
+.stat-graphic {
+  width: 152px;
+  position: relative;
+}
+
+.statsbalken {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid;
+}
+
+.tab-content {
+  text-align: left;
+}
+
+.swipe {
+  width: 24px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+}
+
+.pokeIDAndName {
+  display: flex;
+  gap: 12px;
+}
+
+.pokeIDAndName p {
+  font-size: x-large;
+}

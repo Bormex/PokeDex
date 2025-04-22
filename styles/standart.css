@@ -1,0 +1,27 @@
+/* Standart erst Einstellungen für den HTML Körper */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;         /* nicht unbedingt ein standart Css-Option (entfernt die blaue Farbe vom geclickten Link) */
+}
+
+button {
+    cursor: pointer;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.hidden {
+    display: none !important;      /* Same as the d_none! */
+}
+
+.activ {
+    display: flex !important;
+}

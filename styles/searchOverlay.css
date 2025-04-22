@@ -1,0 +1,29 @@
+#searchContent {
+    margin-top: 24px;
+    border-top: none;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-image: linear-gradient(to top, cornflowerblue -200%, white);
+}
+
+/*
+.sContent {
+    padding: 24px 0;
+}
+
+.sContent img {
+    max-width: 128px;
+}
+
+.sPokeCard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#searchTypes {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+

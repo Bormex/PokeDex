@@ -1,0 +1,128 @@
+@media (max-width: 800px) {
+    .pokeImgBox img {
+        width: 380px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    /* all about PokeCards */
+    #mainContent, 
+    #searchContent {
+        margin: 0 12px;
+        gap: 10px;
+    }
+
+    #content, 
+    .sContent {
+        padding: 16px 0;
+    }
+
+    #content img, 
+    .sContent img {
+        max-width: 196px;
+    }
+
+    .pokeCard, 
+    .sPokeCard {
+        
+    }
+
+    .pokemonName,
+    .pokemonSearchName {
+
+    }
+
+    #types, 
+    #searchTypes {
+        /**/
+    }
+
+    #types p, 
+    #searchTypes p  {
+        /*font-size: 10px;
+        min-width: 48px;*/
+    }
+
+    /* all about Dialog */
+
+    .pokeImgBox img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 520px) {
+    .pokeImgBox img {
+        width: 248px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    /* Title Image */
+    header img {
+        width: 316px;
+    }
+
+    /* all about PokeCards */
+    #mainContent, 
+    #searchContent {
+        margin: 0 12px;
+        gap: 10px;
+    }
+
+    #content, 
+    .sContent {
+        padding: 16px 0;
+    }
+
+    #content img, 
+    .sContent img {
+        max-width: 196px;
+    }
+
+    .pokeCard, 
+    .sPokeCard {
+        
+    }
+
+    .pokemonName,
+    .pokemonSearchName {
+
+    }
+
+    #types, 
+    #searchTypes {
+        /**/
+    }
+
+    #types p, 
+    #searchTypes p  {
+        /*font-size: 10px;
+        min-width: 48px;*/
+    }
+
+    /* all about Dialog */
+    .pokeImgBox img {
+        width: 196px;
+    }
+
+    #aboutPokemon {
+        font-size: small;
+    }
+
+    .stat-bar {
+        gap: 9.5px;
+        font-weight: unset;
+        max-width: 230px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* all about PokeCards */
+    #mainContent, 
+    #searchContent {
+        margin: 0;
+    }
+}

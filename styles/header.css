@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#searchField {
+    border: solid 1px;
+    border-radius: 12px;
+    text-align: center;
+}
