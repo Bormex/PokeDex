@@ -145,11 +145,12 @@ async function loadMorePokemons(y) {
     addMorePokemonCardsInToHTML(h);
 }
 
-const mainContentRef = document.getElementById('mainContent');
+
 // getting the pokemon info and put in html
 async function addMorePokemonCardsInToHTML(h) {
     loadingSpinner();
     const resultsLength = await getPokemonResultsLength();
+    const mainContentRef = document.getElementById('mainContent');
     for (let i = h + 1; i < resultsLength + 1; i++) {
         const {pokemonName, pokemonId, pokemonImage, backgroundColorOfTyp, elements} = await returnInfoOfEachPokemon(i);
         mainContentRef.innerHTML += pokemonCardTemplate(i, pokemonName, pokemonId, pokemonImage, backgroundColorOfTyp, elements);
